@@ -1,7 +1,7 @@
 # data-security-for-sale
 
 # Overview
-This repository builds off the work done by Tyler Dukes, found in this [Github repo](https://github.com/mcclatchy-southeast/security_for_sale). This repository takes the ouptut from there and preprocess some of it for use in the article Security For Sale, published by The Charlotte Observer and Raleigh's News & Observer. Further explanation of the step by step process can be found in the `preprocessing_map_data.ipynb` notebook.
+This repository builds off the work done by Tyler Dukes, found in this [Github repo](https://github.com/mcclatchy-southeast/security_for_sale). This repository takes the ouptut from there and preprocesses some of it for use in the article Security For Sale, published by The Charlotte Observer and Raleigh's News & Observer. Further explanation of the step by step process can be found in the `preprocessing_map_data.ipynb` notebook.
 
 The main hexbinning script lightly modifies the work done by [Chris Henrick](https://gist.github.com/clhenrick) with Turf for [creating hexbins](https://gist.github.com/clhenrick/5787a12a8bf3b02821839e4f9556d997). I started looking into creating [Wurman dots](https://www.esri.com/arcgis-blog/products/js-api-arcgis/mapping/wurman-dots-bringing-back-the-60s/) as well in the `hexbin-processing.js` script.
 
