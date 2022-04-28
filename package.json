@@ -1,0 +1,26 @@
+{
+  "name": "geo-viz-workshop-script",
+  "version": "1.0.0",
+  "description": "nodejs script for hexbinning crashes data for i-school geo viz workshop",
+  "main": "crashes-data-processing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gist.github.com/5787a12a8bf3b02821839e4f9556d997.git"
+  },
+  "author": "Chris L Henrick <chrishenrick@gmail.com> (http://clhenrick.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gist.github.com/5787a12a8bf3b02821839e4f9556d997"
+  },
+  "homepage": "https://gist.github.com/5787a12a8bf3b02821839e4f9556d997",
+  "dependencies": {
+    "@turf/meta": "^6.0.1",
+    "@turf/turf": "^6.5.0",
+    "d3-array": "^1.2.1",
+    "minimist": "^1.2.6",
+    "simple-statistics": "^5.3.1"
+  }
+}
